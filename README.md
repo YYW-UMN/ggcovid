@@ -1,7 +1,7 @@
 # Make heatmaps
 
 ```
-install.packages('devtools')
+
 library(devtools)
 devtools::install_github('YYW-UMN/ggcovid')
 library(ggcovid)
