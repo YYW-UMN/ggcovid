@@ -1,7 +1,6 @@
 # Make heatmaps
 
 ```
-
 library(devtools)
 devtools::install_github('YYW-UMN/ggcovid')
 library(ggcovid)
@@ -12,6 +11,7 @@ generate_heatmaps(
   output_dir ='/path/to/output/results/',
   downsample_label = '100k'
 )
+```
 
 Please trim amplicon and sample names in advance if they are too long for visualization.
 The plot function does not edit names.
