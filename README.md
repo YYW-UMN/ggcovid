@@ -31,10 +31,9 @@ generate_heatmaps(
 ## Output files:
 The output files will look like:
 
+Naming format: Static-Heatmap-2020-12-17-downsample-label.pdf
 <p float="left">
-<img src="https://github.com/YYW-UMN/ggcovid/blob/main/heatmaps/Static_Heatmap_example.pdf" width="700" />
+<img src="https://github.com/YYW-UMN/ggcovid/blob/main/heatmaps/Static_Heatmap_Example.jpeg" width="700" />
 </p>
-
-Static-Heatmap-2020-12-17-downsample-label.pdf
 
 Interactive-Heatmap-2020-12-17-downsample-label.html
