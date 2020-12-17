@@ -43,6 +43,10 @@ generate_heatmaps <- function(
   dat <- dat[,-1]
   rownames(dat) <- amp_ID
   sample_ID <- colnames(dat)
+  dat <- dat %>%
+    mutate_if(is.numeric, list(~replace_na(., 0)))
+
+
   
   # 1. static heatmap
   ## a. covert data to long data ###
