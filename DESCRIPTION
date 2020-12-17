@@ -1,0 +1,23 @@
+Package: ggcovid
+Title: Heatmaps for covid sequencing diagnostics 
+Version: 0.0.1
+Date: 2020-12-15
+Author: Yuanyuan Wang<yuanyuanwang0721@gmail.com>
+Maintainer: Yuanyuan Wang<yuanyuanwang0721@gmail.com>
+Description: The generate heatmaps function will output both a static heatmap in PDF and an interactive heatmap in html 
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+	R (>= 3.6.3)
+biocViews:
+Imports:
+  ggplot2,
+  ggdendro,
+  plotly,
+  heatmaply,
+  RColorBrewer,
+  htmlwidgets,
+  dplyr,
+  tidyr
